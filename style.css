@@ -13,7 +13,9 @@ body {
   max-width: 1500px;
   min-height: 100vh;
   margin: 0 auto;
-   main {
+}
+
+main {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
   align-items: center;
@@ -178,6 +180,6 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #e94560;
+  background: #ff0000;
   color: #fff;
 }
